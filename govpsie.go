@@ -12,7 +12,7 @@ import (
 
 const (
 	libraryVersion = "2.0"
-	defaultBaseURL = "https://api.vpsie.com/apps/v2"
+	defaultBaseURL = "https://api.vpsie.com/api/v2"
 	userAgent      = "vpsiecli/" + libraryVersion
 	mediaType      = "application/json"
 )
