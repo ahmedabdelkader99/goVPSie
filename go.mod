@@ -1,4 +1,4 @@
-module github.com/vpsie/govpsie
+module github.com/ahmedabdelkader99/govpsie
 
 go 1.21.4
 
