@@ -1,4 +1,4 @@
-package govpsie
+//package goedelta
 
 import (
 	"bytes"
@@ -13,7 +13,7 @@ import (
 const (
 	libraryVersion = "2.0"
 	defaultBaseURL = "https://api.el-deltacloud.com/api/v2"
-	userAgent      = "vpsiecli/" + libraryVersion
+	userAgent      = "edeltacli/" + libraryVersion
 	mediaType      = "application/json"
 )
 
