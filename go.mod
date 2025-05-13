@@ -1,4 +1,4 @@
-replace github.com/ahmedabdelkader99/govpsie => /home/aake/Ahmad/eldelta/ED-terrafform/goEldelta
+module github.com/ahmedabdelkader99/goEldelta
 
 go 1.21.4
 
