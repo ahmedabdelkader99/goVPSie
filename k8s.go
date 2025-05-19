@@ -1,4 +1,4 @@
-package govpsie
+package goEldelta
 
 import (
 	"context"
@@ -114,7 +114,7 @@ type K8sGroup struct {
 	IsActive     int64     `json:"is_active"`
 	IsDeleted    int64     `json:"is_deleted"`
 	Identifier   string    `json:"identifier"`
-	ProjectID    int64     `json:"project_id"`
+	ProjectID    string    `json:"project_id"`
 	ClusterID    int64     `json:"cluster_id"`
 	NodesCount   int64     `json:"nodes_count"`
 	DcIdentifier string    `json:"dcIdentifier"`

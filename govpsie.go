@@ -1,4 +1,4 @@
-//package goedelta
+package goEldelta
 
 import (
 	"bytes"

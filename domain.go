@@ -1,4 +1,4 @@
-package govpsie
+package goEldelta
 
 import (
 	"context"
@@ -87,8 +87,8 @@ type ListDomainVpsieRoot struct {
 
 type CreateDomainRequest struct {
 	ProjectIdentifier string   `json:"projectIdentifier"`
-	Tags         []string `json:"tags,omitempty"`
-	Domain       string   `json:"domain"`
+	Tags              []string `json:"tags,omitempty"`
+	Domain            string   `json:"domain"`
 }
 
 type Record struct {

@@ -1,4 +1,4 @@
-package govpsie
+package goEldelta
 
 import (
 	"context"
@@ -65,7 +65,7 @@ type VPC struct {
 	InterfaceNumber  int       `json:"interface_number"`
 	NetworkTagNumber int       `json:"network_tag_number"`
 	NetworkRange     string    `json:"network_range"`
-	NetworkSize      int       `json:"network_size"`
+	NetworkSize      string    `json:"network_size"`
 	IsDefault        int       `json:"is_default"`
 	CreatedBy        int       `json:"created_by"`
 	UpdatedBy        int       `json:"updated_by"`

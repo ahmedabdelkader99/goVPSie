@@ -1,4 +1,4 @@
-package govpsie
+package goEldelta
 
 import (
 	"context"
@@ -103,7 +103,7 @@ type VmData struct {
 	IsDeleted           int64   `json:"is_deleted"`
 	Identifier          string  `json:"identifier"`
 	Power               int64   `json:"power"`
-	ProjectID           int64   `json:"project_id"`
+	ProjectID           string  `json:"project_id"`
 	IsCustom            int64   `json:"is_custom"`
 	NrAddedIps          int64   `json:"nr_added_ips"`
 	InPcs               int64   `json:"in_pcs"`
@@ -193,7 +193,7 @@ type CreateServerRequest struct {
 	AddPublicIpV6      *int64    `json:"addPublicIpV6,omitempty"`
 	AddPrivateIp       *int64    `json:"addPrivateIp,omitempty"`
 	SshKeyIdentifier   *string   `json:"sshKeyIdentifier,omitempty"`
-	ProjectID          int64     `json:"projectId"`
+	ProjectID          string    `json:"projectId"`
 	Tags               []*string `json:"tags,omitempty"`
 	ScriptIdentifier   *string   `json:"scriptIdentifier,omitempty"`
 }

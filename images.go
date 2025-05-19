@@ -1,4 +1,4 @@
-package govpsie
+package goEldelta
 
 import (
 	"context"

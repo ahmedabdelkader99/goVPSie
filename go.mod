@@ -1,12 +1,13 @@
+<<<<<<< HEAD
+=======
+//eplace github.com/ahmedabdelkader99/goEldelta => /home/aake/Ahmad/eldelta/ED-terrafform/goEldelta
+>>>>>>> 63e6de0 (changing NETWORK SIZE TYPE)
 module github.com/ahmedabdelkader99/goEldelta
 
-go 1.21.4
+replace github.com/vpsie/govpsie => github.com/ahmedabdelkader99/goEldelta v0.0.0-20240420101606-da19aed56073
 
-require golang.org/x/oauth2 v0.15.0
+go 1.23.0
 
-require (
-	github.com/golang/protobuf v1.5.3 // indirect
-	golang.org/x/net v0.19.0 // indirect
-	google.golang.org/appengine v1.6.7 // indirect
-	google.golang.org/protobuf v1.31.0 // indirect
-)
+toolchain go1.24.2
+
+require golang.org/x/oauth2 v0.30.0
