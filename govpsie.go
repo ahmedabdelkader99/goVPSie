@@ -1,4 +1,4 @@
-package goEldelta
+package goVPSie
 
 import (
 	"bytes"
@@ -12,7 +12,7 @@ import (
 
 const (
 	libraryVersion = "2.0"
-	defaultBaseURL = "https://api.el-deltacloud.com/api/v2"
+	defaultBaseURL = "https://api.vpsie.com/api/v2"
 	userAgent      = "edeltacli/" + libraryVersion
 	mediaType      = "application/json"
 )

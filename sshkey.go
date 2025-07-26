@@ -1,4 +1,4 @@
-package goEldelta
+package goVPSie
 
 import (
 	"context"

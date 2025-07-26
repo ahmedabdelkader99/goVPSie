@@ -1,4 +1,4 @@
-package goEldelta
+package goVPSie
 
 import (
 	"context"
@@ -28,7 +28,7 @@ var _ VPCService = &vpcServiceHandler{}
 type ListVPCRoot struct {
 	Error bool  `json:"error"`
 	Data  []VPC `json:"data"`
-	Total int   `json:"total "`
+	Total int   `json:"total"`
 }
 
 type GetVPCRoot struct {
