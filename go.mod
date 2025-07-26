@@ -1,8 +1,9 @@
 module github.com/ahmedabdelkader99/goVPSie
-replace github.com/vpsie/govsie => github.com/ahmedabdelkader99/goVPSie v0.0.0-20240420101606-da19aed56073
+
+//replace github.com/vpsie/govsie => github.com/ahmedabdelkader99/goVPSie v0.0.0-20240420101606-da19aed56073
 
 //replace github.com/vpsie/govpsie => github.com/ahmedabdelkader99/goVPSie v0.0.0-20240420101606-da19aed56073
-replace github.com/vpsie/goVPSie => github.com/ahmedabdelkader99/goVPSie v0.0.0-20240420101606-da19aed56073
+replace github.com/vpsie/govpsie => github.com/ahmedabdelkader99/goVPSie v0.0.0
 
 go 1.23.0
 
